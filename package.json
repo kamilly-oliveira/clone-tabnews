@@ -4,7 +4,9 @@
   "description": "Projeto para aprender programação com o curso.dev do Filipe Deschamps",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^16.2.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6"
   }
 }
